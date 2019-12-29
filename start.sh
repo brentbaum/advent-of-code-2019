@@ -1,3 +1,2 @@
-DIR=/Users/brentbaumgartner/dev/advent-2019
-multipass mount $DIR passionate-gnat
-multipass exec passionate-gnat echo hello
+multipass exec passionate-gnat export QHOME=/home/advent/q
+multipass exec passionate-gnat sh /home/advent/run.sh "$@"
