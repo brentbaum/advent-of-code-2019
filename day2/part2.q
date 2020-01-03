@@ -11,4 +11,4 @@ test: {
   input[2]: nounverb[1];
   result: first input {call[y;x]}/til count (-1_0N 4#input);
   $[result=19690720; 0N!nounverb; 0]}
-test each (til 99) cross til 99
+test peach (til 99) cross til 99

@@ -1,0 +1,22 @@
+{
+  // See https://go.microsoft.com/fwlink/?LinkId=733558
+  // for the documentation about the tasks.json format
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "d6",
+      "type": "shell",
+      "command": "./start.sh /home/advent/day6/part1.q"
+    },
+    {
+      "label": "d4",
+      "type": "shell",
+      "command": "./start.sh /home/advent/day4/part2.q"
+    },
+    {
+      "label": "d3",
+      "type": "shell",
+      "command": "./start.sh /home/advent/day3/part1.q"
+    }
+  ]
+}
